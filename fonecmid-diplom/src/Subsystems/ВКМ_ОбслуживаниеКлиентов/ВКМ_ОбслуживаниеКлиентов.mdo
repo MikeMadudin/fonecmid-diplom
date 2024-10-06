@@ -12,4 +12,5 @@
   </picture>
   <subsystems>Документы</subsystems>
   <subsystems>Регистры</subsystems>
+  <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>
