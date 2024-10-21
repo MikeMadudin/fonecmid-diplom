@@ -25,4 +25,7 @@
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Role.ВКМ_РаботаСМассовымСозданиемРеализаций</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
 </mdclass:Subsystem>

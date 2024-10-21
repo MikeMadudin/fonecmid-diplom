@@ -6,7 +6,6 @@
     <value>Отправка уведомлений телеграм боту</value>
   </synonym>
   <methodName>CommonModule.ВКМ_ОбщегоНазначенияСервер.ОтправкаУведомленийПоРасписанию</methodName>
-  <description>Отправка уведомлений телеграм боту</description>
   <key>ВКМ_ОтправкаУведомленийТелеграмБоту</key>
   <use>true</use>
   <predefined>true</predefined>

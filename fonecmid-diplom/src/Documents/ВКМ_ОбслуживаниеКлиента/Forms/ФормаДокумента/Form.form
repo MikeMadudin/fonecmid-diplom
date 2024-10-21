@@ -248,10 +248,6 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Специалист</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>СпециалистПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>СпециалистРасширеннаяПодсказка</name>
       <id>58</id>
@@ -302,10 +298,6 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ДатаПроведенияРабот</segments>
     </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ДатаПроведенияРаботПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>ДатаПроведенияРаботРасширеннаяПодсказка</name>
       <id>18</id>
@@ -359,10 +351,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ВремяНачалаРабот</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВремяНачалаРаботПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВремяНачалаРаботРасширеннаяПодсказка</name>
         <id>21</id>
@@ -413,10 +401,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ВремяОкончанияРабот</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ВремяОкончанияРаботПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ВремяОкончанияРаботРасширеннаяПодсказка</name>
         <id>24</id>
