@@ -2,10 +2,36 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <command>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</command>
+      <visible/>
     </visibilityFragments>
   </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

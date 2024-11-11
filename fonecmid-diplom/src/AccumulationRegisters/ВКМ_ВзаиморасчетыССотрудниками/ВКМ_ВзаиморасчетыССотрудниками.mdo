@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e7e672f-02e9-4670-ae51-31206093503f">
+  <producedTypes>
+    <selectionType typeId="5a352ba0-2b53-4226-a00a-66658dc2511a" valueTypeId="9aef9b2f-5443-4db8-ae57-9d3d3353b2cc"/>
+    <listType typeId="9361baf4-c472-45da-9879-902860222d65" valueTypeId="cf68a09a-04f6-4209-8716-3e5fdbf70e56"/>
+    <managerType typeId="6ecd4cea-8d24-4c00-992d-069c2ae1c89a" valueTypeId="37a0113f-f66a-42fd-b50b-555294d54f4b"/>
+    <recordSetType typeId="251aef6e-d53c-46f1-8447-24d2f978bb89" valueTypeId="411a93af-1e12-42b3-9b32-2a9613afc1bf"/>
+    <recordKeyType typeId="f1837302-9de8-4bef-a421-5e845e276df6" valueTypeId="0493d13f-6407-49f2-bb56-cac461fb189c"/>
+    <recordType typeId="bc7ab872-da70-40ee-87f4-305473e498ee" valueTypeId="6e49f972-1c76-430b-8c95-fe8e50799b93"/>
+  </producedTypes>
+  <name>ВКМ_ВзаиморасчетыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b9b93157-f9e3-4cd9-8adc-774c8f6283e6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="73f414e5-50ea-446a-ad28-ad293c39a73c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

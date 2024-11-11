@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c36e22-a75a-4e86-a8a5-109d2e50a449">
+  <producedTypes>
+    <objectType typeId="a65f69bf-1541-4e06-9510-33b5d2000999" valueTypeId="26fa929a-4860-4b9c-b65c-946e663c9a48"/>
+    <refType typeId="373ae514-749e-4a41-82cc-cdfd6ba6fa8e" valueTypeId="7d17e5b9-8276-458d-9aea-c31f871e96fa"/>
+    <selectionType typeId="81d25c6d-40f9-492b-8d6d-dea25b6d86b1" valueTypeId="4aa712c7-2187-4189-b7ec-50c3840ee626"/>
+    <listType typeId="7b284ad8-a165-4cca-b5df-eb4518b7d203" valueTypeId="342e0222-ead2-4b4a-aed2-459ac76a3d76"/>
+    <managerType typeId="e02401c0-1d16-4b0a-a627-23517c76f102" valueTypeId="7785aaff-4717-4830-be99-edf32fa164c7"/>
+  </producedTypes>
+  <name>ВМК_ВыплатаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВМК_ВыплатаЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВМК_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="547b2c6c-2b28-4d17-84be-d9f6c0c09a04">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c546c2ae-b5ac-4328-b552-389d1953f31e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="14a0ce2e-8f14-4845-88cc-8a51c36b8eaa">
+    <producedTypes>
+      <objectType typeId="0de83e83-3b87-4930-92ff-fe31f917d962" valueTypeId="8a25432e-09c5-4bf7-95c2-88da5e0e6ae1"/>
+      <rowType typeId="ac7402ab-b17c-4d0c-8ce0-fe9c572d894d" valueTypeId="598b4bb8-61eb-4b46-a66b-0f8f6a3512c6"/>
+    </producedTypes>
+    <name>Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="3987c86a-c4b1-488a-b25b-1defab699b1e">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ddf439e5-b68f-49a1-9b43-5ece59f6490e">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
