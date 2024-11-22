@@ -628,6 +628,10 @@
   <roles>Role.ВКМ_ИзменениеОбслуживанияКлиентов</roles>
   <roles>Role.ВКМ_РаботаСМассовымСозданиемРеализаций</roles>
   <roles>Role.ВКМ_НачислениеВыплатаЗарплаты</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетаПоВыработкеСпециалистов</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетаПоАнализуВыставленныхАктов</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетаПоЗарплате</roles>
+  <roles>Role.ВКМ_ЧтениеОтчетаПоОтпускам</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>

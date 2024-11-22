@@ -39,6 +39,10 @@
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_ЗапланированныеОтпуска</content>
+  <content>Role.ВКМ_ЧтениеОтчетаПоВыработкеСпециалистов</content>
+  <content>Role.ВКМ_ЧтениеОтчетаПоАнализуВыставленныхАктов</content>
+  <content>Role.ВКМ_ЧтениеОтчетаПоЗарплате</content>
+  <content>Role.ВКМ_ЧтениеОтчетаПоОтпускам</content>
   <subsystems>Документы</subsystems>
   <subsystems>Регистры</subsystems>
   <subsystems>Справочники</subsystems>
