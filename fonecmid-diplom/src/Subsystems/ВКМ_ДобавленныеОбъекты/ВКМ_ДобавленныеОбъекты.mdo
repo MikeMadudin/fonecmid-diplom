@@ -35,6 +35,10 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_ЗапланированныеОтпуска</content>
   <subsystems>Документы</subsystems>
   <subsystems>Регистры</subsystems>
   <subsystems>Справочники</subsystems>
