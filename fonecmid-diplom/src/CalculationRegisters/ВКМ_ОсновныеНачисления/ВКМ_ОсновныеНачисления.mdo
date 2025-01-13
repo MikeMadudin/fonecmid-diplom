@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <periodicity>Month</periodicity>
   <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
   <schedule>InformationRegister.ВКМ_ГрафикиРаботы</schedule>
   <scheduleValue>InformationRegister.ВКМ_ГрафикиРаботы.Resource.Значение</scheduleValue>
   <scheduleDate>InformationRegister.ВКМ_ГрафикиРаботы.Dimension.Дата</scheduleDate>
