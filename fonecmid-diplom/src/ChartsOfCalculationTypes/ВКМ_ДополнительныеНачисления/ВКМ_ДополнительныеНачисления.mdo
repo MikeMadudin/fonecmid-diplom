@@ -38,15 +38,6 @@
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
   <predefined>
-    <items id="9299ad88-5a5a-4a43-9cec-7c394eac22ee">
-      <name>ПремияПроцентом</name>
-      <description>Премия процентом</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
-      <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
-    </items>
     <items id="8799485d-d14e-40ea-bca9-e6f2e324272f">
       <name>ПремияФикс</name>
       <description>Премия фиксированная</description>
